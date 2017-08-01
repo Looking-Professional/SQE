@@ -7,6 +7,7 @@
     [Obtain Marks] VARCHAR (50) NULL,
     [Total Marks]  VARCHAR (50) NULL,
     [Remarks]      VARCHAR (50) NULL,
+     Grade         VARCHAR (20) NULL
     CONSTRAINT [FK_Course_ToTable] FOREIGN KEY ([Id]) REFERENCES [dbo].[StudentTable] ([Id])
 );
 
